@@ -12,7 +12,10 @@ footer{
     text-align: center;
 }
 form{
+    display: grid;
     background-color: blueviolet;
+    
+    
     
 }
 button{
@@ -22,6 +25,10 @@ button{
     padding-bottom: 30px;
     background-color: red;
 }
+label{
+    color: rgb(255, 255, 255);
+}
+
 
 
 
