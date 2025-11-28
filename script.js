@@ -20,7 +20,7 @@ function Calcular(){
     tax = subtotal * 0.16
     total = subtotal + tax
 
-    
+    alert("Elaborado por: FERNANDO VARGAS · Proyecto de Formulario · © 2025")
 
     document.getElementById("subtotal").value = subtotal;
     document.getElementById("tax").value = tax;

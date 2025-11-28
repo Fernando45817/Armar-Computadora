@@ -39,6 +39,18 @@ label{
     grid-template-columns: auto auto auto auto;
 
 }
+h3{
+    text-align: center;
+}
+.totales{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+}
+.button{
+    display: grid;
+    grid-template-columns: auto;
+}
 
 
 
