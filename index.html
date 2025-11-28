@@ -18,6 +18,7 @@
 
     <form action="computadora">
         <div>
+            <label for="componentes">Componentes</label>
             <select name="componentes" id="componentes">
                 Componentes
                 <option value="700">Minitorre ($700)</option>
@@ -28,6 +29,7 @@
         </div>
 
         <div>
+            <label for="procesador">Procesador</label>
             <select name="procesador" id="procesador">
                 Procesador
                 <option value="900">Celeron ($900)</option>
@@ -38,6 +40,7 @@
         </div>
 
         <div>
+            <label for="disco">Disco</label>
             <select name="disco" id="disco">
                 Disco duro
                 <option value="500">500GB ($500)</option>
@@ -49,14 +52,15 @@
         </div>
 
         <div>
+            <label for="monitor">Monitor</label>
             <select name="monitor" id="monitor">
                 Monitor
-                <option value="">17"</option>
-                <option value="">19"</option>
-                <option value="">21.5"</option>
-                <option value="">24"</option>
-                <option value="">27"</option>
-                <option value="">32"</option>
+                <option value="2500">17" ($2500)</option>
+                <option value="2750">19" ($2750)</option>
+                <option value="3250">21.5" ($3250)</option>
+                <option value="3850">24" ($3850)</option>
+                <option value="4500">27" ($4500)</option>
+                <option value="5250">32" ($5250)</option>
             </select>
         </div>
 
@@ -131,8 +135,7 @@
         <h3>Calcular</h3>
         <br>
         <button type="button" onclick="Calcular()"></button>
-        <label for="total">Total</label>
-        <input type="text">
+        <input type="text" id="calcular" name="calcular" value="0" readonly>
         </div>
     </form>
 
