@@ -16,8 +16,14 @@ function Calcular(){
 
 
 
-    total = componentes + procesador + disco + monitor + sum
+    subtotal = componentes + procesador + disco + monitor + sum
+    tax = subtotal * 0.16
+    total = subtotal + tax
+
     
 
-    document.getElementById("calcular").value = total;
+    document.getElementById("subtotal").value = subtotal;
+    document.getElementById("tax").value = tax;
+    document.getElementById("total").value = total;
+
 }

@@ -65,10 +65,10 @@
         </div>
 
         <div>
-            <input type="checkbox" id="mouse" name="x" value="1000">
+            <input type="checkbox" id="mouse" name="x" value="1000" checked>
             <label for="mouse">Mouse</label>
             <br>
-            <input type="checkbox" id="teclado" name="x" value="1250">
+            <input type="checkbox" id="teclado" name="x" value="1250" checked>
             <label for="teclado">Teclado</label>
             <br>
              <input type="checkbox" id="bocina" name="x" value="3000">
@@ -119,7 +119,7 @@
              <input type="checkbox" id="cable-hdmi" name="x" value="1050">
             <label for="cable-hdmi">Cable HDMI</label>
             <br>
-             <input type="checkbox" id="base-refrigerante" name="x" value="750">
+             <input type="checkbox" id="base-refrigerante" name="x" value="750" checked>
             <label for="base-refrigerante">Base refrigerante</label>
             <br>
              <input type="checkbox" id="caja-de-herramientas" name="x" value="1350">
@@ -134,8 +134,25 @@
 
         <h3>Calcular</h3>
         <br>
-        <button type="button" onclick="Calcular()"></button>
-        <input type="text" id="calcular" name="calcular" value="0" readonly>
+        
+
+        <label for=""></label>
+        <label for="subtotal">Subtotal:</label>
+        <br>
+        <input type="text" id="subtotal" name="subtotal" value="0" readonly>
+        <br>
+
+        <label for="tax">Impuestos(si son aplicables):</label>
+        <br>
+        <input type="text" id="tax" name="tax" value="0" readonly>
+        <br>
+
+        <label for="total">Total:</label>
+        <br>
+        <input type="text" id="total" name="total" value="0" readonly>
+        <br>
+
+        <button type="button" onclick="Calcular()">Calcular</button>
         </div>
     </form>
 
